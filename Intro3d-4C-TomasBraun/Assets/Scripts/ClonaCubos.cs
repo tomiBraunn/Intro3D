@@ -6,18 +6,7 @@ public class ClonaCubos : MonoBehaviour
 {
     public GameObject cuboPrefab;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void ClonarCubos()
+    public void ClonarCubo()
     {
         Instantiate(cuboPrefab);
     }
